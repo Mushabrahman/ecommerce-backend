@@ -14,7 +14,7 @@ import {
   realtedProductController,
   searchProductController,
   updateProductController,
-} from "../controllers/productController.js";
+} from "../controllers/productcontroller.js";
 import { isAdmin, requireSignIn } from "../middlewares/authMiddleware.js";
 import formidable from "express-formidable";
 
